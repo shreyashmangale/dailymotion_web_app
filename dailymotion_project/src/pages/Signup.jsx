@@ -59,7 +59,7 @@ const Signup = () => {
                     <label htmlFor="email" className='text-sm font-semibold'>Password</label>
                     <input className='border-1 border-gray-400 rounded-lg p-2' required type="password" name='password' onChange={(e) => setPassword(e.target.value)} />
 
-                    <button className='mt-6 px-4 py-3 rounded-lg bg-[#FC4747] text-white text-sm hover:text-[#161D2F] transition hover:ease-in-out' onClick={handleSignup}>Sign up</button>
+                    <button className='mt-6 px-4 py-3 rounded-lg bg-[#FC4747] text-white text-sm hover:text-[#161D2F] transition hover:ease-in-out cursor-pointer' onClick={handleSignup}>Sign up</button>
                     {/* {err && <p>{err}</p>} */}
                     <p className='mt-4 text-black text-sm'>Already have an account? <Link to="/login"><span className='text-red-500 ms-2'>Log in</span></Link></p>
 

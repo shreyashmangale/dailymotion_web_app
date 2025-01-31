@@ -109,7 +109,7 @@ const Navbar = () => {
                 <div className='flex flex-grow justify-between ps-8'>
                     <h1 className='text-slate-800 sm:text-3xl text-xl font-semibold uppercase italic'>Dailymotion</h1>
                     <div className='hidden sm:flex lg:w-[500px] md:w-[300px] bg-gray-100 rounded-md  gap-4 px-4 items-center'>
-                        <FontAwesomeIcon icon={faSearch} onClick={handleSearch} />
+                        <FontAwesomeIcon className='cursor-pointer' icon={faSearch} onClick={handleSearch} />
                         <input className='w-full h-full rounded focus:outline-none' type="text" placeholder='Search' onChange={(e) => setSearchInput(e.target.value)} />
                     </div>
                     <div className='flex items-center cursor-pointer sm:hidden'>

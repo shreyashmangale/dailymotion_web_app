@@ -51,7 +51,7 @@ const Login = () => {
                     <label htmlFor="password" className='text-sm font-semibold'>Password</label>
                     <input className='border-1 border-gray-400 rounded-lg p-2' required type="password" name='password' onChange={(e) => setPassword(e.target.value)} />
 
-                    <button className='mt-6 px-4 py-3 rounded-lg bg-[#FC4747] text-white text-sm hover:text-[#161D2F] transition hover:ease-in-out' onClick={handleLogIn}>Log in</button>
+                    <button className='mt-6 px-4 py-3 rounded-lg bg-[#FC4747] text-white text-sm hover:text-[#161D2F] transition hover:ease-in-out cursor-pointer' onClick={handleLogIn}>Log in</button>
                     {/* {err && <p>{err}</p>} */}
                     <p className='mt-4 text-black text-sm'>Don't you have an account? <Link to="/signup"><span className='text-red-500 ms-2'>Sign up</span></Link></p>
 

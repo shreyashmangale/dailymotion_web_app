@@ -51,9 +51,7 @@ const Watchlist = () => {
     // fetchUserData();
   }, [])
 
-  //Need to fetch data from api, currently no data 
-  //need to validate before adding in watchlist
-  //correct using the api 
+
   return (
     <div>
       <Navbar />
