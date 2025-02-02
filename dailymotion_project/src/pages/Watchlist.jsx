@@ -80,7 +80,7 @@ const Watchlist = () => {
                       <div className='h-fit sm:px-2 px-4 py-1 flex sm:flex-row flex-col gap-4 items-center'>
                         {/* <ReactPlayer light={true} controls={true} url='' height="340px" width="600px" /> */}
                         <div className='lg:w-[350px] mb-2'>
-                          <img className='w-full max-h-[200px] rounded-lg' src={item?.thumbnail[0].url} alt="video-thumbnail" />
+                          <img className='w-full max-h-[200px] max-w-[300px] rounded-lg' src={item?.thumbnail[0].url} alt="video-thumbnail" />
                         </div>
                         <div className='text-start'>
                           <Link to={`/single/${item.videoId}`} >
