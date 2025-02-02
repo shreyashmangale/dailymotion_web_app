@@ -21,7 +21,7 @@ const Watchlist = () => {
           id: doc.id,
           ...doc.data(),
         }));
-        //console.log(watchlist);
+        console.log(watchlist);
         setWatchlistData(watchlist);
       }
     } catch (error) {
